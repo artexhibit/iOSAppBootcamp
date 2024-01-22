@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="fMa-pH-yoB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="for-Iw-2YG">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="298"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZ0-2m-7Gd">
+                                                <rect key="frame" x="101.5" y="123" width="211.5" height="52.5"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="45"/>
+                                                <color key="textColor" red="0.015296671540000001" green="0.1231995597" blue="0.42355394359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="KZ0-2m-7Gd" firstAttribute="centerY" secondItem="for-Iw-2YG" secondAttribute="centerY" id="2D1-4P-OW4"/>
+                                            <constraint firstItem="KZ0-2m-7Gd" firstAttribute="centerX" secondItem="for-Iw-2YG" secondAttribute="centerX" id="jDF-bR-743"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJK-Fo-km3">
+                                        <rect key="frame" x="0.0" y="299" width="414" height="298"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HU-im-poor-but-good-button_busy_beaver_button_museum" translatesAutoresizingMaskIntoConstraints="NO" id="JJA-4o-qs7">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="298"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="JJA-4o-qs7" secondAttribute="trailing" id="DzW-ud-wHz"/>
+                                            <constraint firstAttribute="bottom" secondItem="JJA-4o-qs7" secondAttribute="bottom" id="L0I-Rs-soH"/>
+                                            <constraint firstItem="JJA-4o-qs7" firstAttribute="leading" secondItem="lJK-Fo-km3" secondAttribute="leading" id="Old-UG-6G8"/>
+                                            <constraint firstItem="JJA-4o-qs7" firstAttribute="top" secondItem="lJK-Fo-km3" secondAttribute="top" id="QFl-6q-TUb"/>
+                                            <constraint firstItem="JJA-4o-qs7" firstAttribute="centerY" secondItem="lJK-Fo-km3" secondAttribute="centerY" id="pXb-Ov-nLl"/>
+                                            <constraint firstItem="JJA-4o-qs7" firstAttribute="centerX" secondItem="lJK-Fo-km3" secondAttribute="centerX" id="ugS-JE-wa4"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyJ-yA-1Vb">
+                                        <rect key="frame" x="0.0" y="598" width="414" height="298"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="But I hope Angela's course will help me get rich" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZ6-uP-9mh">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="298"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                                <color key="textColor" red="0.015296671540000001" green="0.1231995597" blue="0.42355394359999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="tZ6-uP-9mh" firstAttribute="top" secondItem="vyJ-yA-1Vb" secondAttribute="top" id="CFX-vw-FvD"/>
+                                            <constraint firstItem="tZ6-uP-9mh" firstAttribute="centerY" secondItem="vyJ-yA-1Vb" secondAttribute="centerY" id="FNy-kA-pc7"/>
+                                            <constraint firstAttribute="bottom" secondItem="tZ6-uP-9mh" secondAttribute="bottom" id="aTn-Wy-pv2"/>
+                                            <constraint firstItem="tZ6-uP-9mh" firstAttribute="leading" secondItem="vyJ-yA-1Vb" secondAttribute="leading" id="nUu-M1-VXz"/>
+                                            <constraint firstAttribute="trailing" secondItem="tZ6-uP-9mh" secondAttribute="trailing" id="nYh-qB-y4r"/>
+                                            <constraint firstItem="tZ6-uP-9mh" firstAttribute="centerX" secondItem="vyJ-yA-1Vb" secondAttribute="centerX" id="txx-iM-ouP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.89019607840000003" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fMa-pH-yoB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="D2m-YB-pET"/>
+                            <constraint firstItem="fMa-pH-yoB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Fiq-Lf-x9j"/>
+                            <constraint firstItem="fMa-pH-yoB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="If7-UQ-iGL"/>
+                            <constraint firstAttribute="bottom" secondItem="fMa-pH-yoB" secondAttribute="bottom" id="hdY-31-il1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="84.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HU-im-poor-but-good-button_busy_beaver_button_museum" width="333" height="336"/>
+    </resources>
+</document>
